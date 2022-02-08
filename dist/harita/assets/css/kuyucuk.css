@@ -1,0 +1,261 @@
+/*@import '/assets/css/plugins/bootstrap.min.css';*/
+@import '/assets/css/font.css';
+@import '/assets/css/plugins/fullpage.min.css';
+@import '/assets/css/plugins/masterslider.css';
+
+html, body, main, section {
+    width: 100%; height: 100%;
+}
+
+.mt-n60 {
+    margin-top: -15%;
+}
+
+.w-70 {
+    width: 70%;
+    margin: auto;
+}
+
+.w-95 {
+    width: 95%;
+    margin: auto;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.kuyucuk-page-title {
+    font-family: 'Montserrat';
+    font-weight: 700 !important;
+    font-size: 60px !important;
+    color: white;
+    line-height: 70px;
+}
+
+.white {
+    color: #ffffff !important;
+}
+
+.kuyucuk nav ul li a {
+    font-size: .6em;
+}
+
+.mobile-kuyucuk nav ul li a {
+    font-size: .6em;
+}
+
+.kuyucuk-page-title-2 {
+    font-family: 'Montserrat';
+    font-weight: 700 !important;
+    font-size: 50px !important;
+    color: #ffffff;
+    line-height: 60px;
+}
+
+.kuyucuk-page-p {
+    font-family: 'Montserrat';
+    font-weight: 400 !important;
+    font-size: 22px !important;
+    color: white;
+}
+
+.kuyucuk-page-1 {
+    width: 100%; height: 100%;
+    background-image: url(../image/kuyucuk-bg-1.jpg?v0.0.1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.kuyucuk-page-2 {
+    width: 100%; height: 100%;
+    background-image: url(../image/kuyucuk-bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.kuyucuk-page-3 {
+    width: 100%; height: 100%;
+    background-image: url(../image/kuyucuk-bg-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.kuyucuk-page-4 {
+    width: 100%; height: 100%;
+    background-color: #ffffff;
+}
+
+.kuyucuk-page-5 {
+    width: 100%; height: 100%;
+    background-image: url(../image/kuyucuk-bg-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.kuyucuk-page-5 a {
+    background-color: #0097dd;
+    border-radius: 50px;
+    padding: 12px 2rem;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    transition: .3s ease-out;
+    display: block;
+    width: max-content;
+    margin: auto;
+}
+
+.ml-8 {
+    margin-left: 8rem;
+}
+
+.kuyucuk-page-5 a:hover {
+    
+}
+
+.kuyucuk-page-5 a img {
+    width: 30px;
+    margin-right: 12px;
+}
+
+.kuyucuk-drop {
+    width: 100%; max-width: 130px;
+}
+
+.scroll-mouse-anim {
+    width: 100px; height: auto;
+    position: fixed;
+    bottom: 20px; left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.scroll-mouse-anim span {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.scroll-mouse-anim .scroll-mouse-icon {
+    width: 30px;
+    margin: auto;
+    position: relative;
+}
+
+.scroll-mouse-anim .scroll-mouse-icon img {
+    width: 100%;
+}
+
+.scroll-mouse-anim .scroll-mouse-icon .scroll-mouse-drop {
+    width: 14px;
+    position: absolute;
+    bottom: 6px; left: 50%;
+    transform: translateX(-50%);
+    animation: scroll-mouse-drop-anim 1s infinite ease-out;
+}
+
+
+
+@keyframes scroll-mouse-drop-anim {
+    0% {
+        bottom: 12px;
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+    }
+    80% {
+        bottom: 6px;
+    }
+    100% {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+.scroll-mouse-anim .scroll-mouse-icon .scroll-mouse-drop img {
+    width: 100%;
+}
+
+@media (max-width:1024px) {
+    .kuyucuk-page-5 {
+        margin-top: 200px;
+    }
+}
+
+@media(max-width:768px) {
+    .ml-8 {
+        margin-left: 12px;
+    }
+
+    .kuyucuk-page-5 {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 680px) {
+    .kuyucuk-page-title {
+        font-size: 7vw !important;
+        line-height: 10vw;
+    }
+
+    .kuyucuk-page-title-2 {
+        font-size: 6vw !important;
+        line-height: 8vw;
+    }
+
+    .kuyucu-page-p {
+        font-size: 18px !important;
+    }
+    .mt-n60 {
+        margin-top: -60%;
+    }
+}
+
+@media (max-width:414px) {
+    .kuyucuk-page-5 {
+        margin-top: 200px;
+    }
+}
+
+@media (max-width:400px) {
+    .kuyucuk-page-p {
+        font-size: 12px !important;
+    }
+
+    .kuyucuk-page-5 {
+        margin-top: 60px;
+    }
+
+    .kuyucuk-drop {
+        max-width: 70px;
+    }
+
+    .kuyucuk-page-5 a {
+        font-size: 18px !important;
+    }
+
+    .kuyucuk-page-5 a img {
+        width: 20px;
+    }
+}
+
+@media (max-width:380px) {
+    .kuyucuk-page-5 {
+        margin-top: 0;
+    }
+}
+
+@media (max-width:370px) {
+    .kuyucuk-page-5 {
+        margin-top: 90px;
+    }
+}

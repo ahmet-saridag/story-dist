@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="73" height="318" viewBox="0 0 73 318">
+    <defs>
+        <linearGradient id="z0oy5opuga" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#1BB605"/>
+            <stop offset="100%" stop-color="#9F041B"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path stroke="url(#z0oy5opuga)" stroke-linecap="round" stroke-width="3" d="M.5.749V309.25M.5.662h17M.5 309.338h17m-15-284.83h7m-7 17.223h7m-7 17.222h7m-7 17.222h20m-20 18.547h7m-7 15.898h7m-7 18.547h7m-7 17.222h7m-7 17.222h7m-7 17.222h7m-7 18.547h7m-7 15.898h7m-7 18.547h7m-7 17.222h7m-7 17.222h7m-7 17.222h7" transform="translate(1) translate(0 5)"/>
+        <text fill="#268B09" font-family="Geogrotesque-Regular, Geogrotesque" font-size="12" transform="translate(1)">
+            <tspan x="26" y="84">100 </tspan> <tspan x="26" y="99">Su Stresi</tspan>
+        </text>
+        <text fill="#268B09" font-family="Geogrotesque-Medium, Geogrotesque" font-size="12" font-weight="400" transform="translate(1)">
+            <tspan x="26" y="12">130 </tspan> <tspan x="26" y="27">Bolluk</tspan>
+        </text>
+        <text fill="red" font-family="Geogrotesque-Regular, Geogrotesque" font-size="12" transform="translate(1)">
+            <tspan x="26" y="285">70 </tspan> <tspan x="26" y="300">Şiddetli</tspan> <tspan x="26" y="315">Su Stresi</tspan>
+        </text>
+    </g>
+</svg>

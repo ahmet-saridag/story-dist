@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;700&display=swap");
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  height: 100%;
+}
+
+#fse-widget {
+  width: 100%;
+  height: 100%;
+  font-family: "Rajdhani", sans-serif;
+}
+#fse-widget .main-change {
+  height: calc(100% - 14px);
+  border-radius: 10px;
+  background-image: linear-gradient(to top, #e2e2e2, #ececec);
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  justify-content: space-between;
+}
+#fse-widget .main-change .main-logo {
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+#fse-widget .main-change .main-logo img {
+  width: auto;
+  max-width: 60px;
+  height: 100%;
+  object-fit: contain;
+}
+#fse-widget .main-change .information-values {
+  border-radius: 10px;
+  background-color: white;
+  height: calc(100% - 8px);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 7px;
+  flex: 1 100%;
+}
+#fse-widget .main-change .information-values .rate {
+  display: flex;
+  align-items: center;
+  margin-right: 7px;
+}
+#fse-widget .main-change .information-values .rate .rate-icon {
+  width: 14px;
+  height: 20px;
+  margin-right: 7px;
+}
+#fse-widget .main-change .information-values .rate .rate-icon .rate-icon img {
+  width: 100%;
+  object-fit: contain;
+}
+#fse-widget .main-change .information-values .rate span {
+  color: #484848;
+  font-size: 25px;
+  font-weight: bold;
+}
+#fse-widget .main-change .point {
+  display: flex;
+  align-items: center;
+}
+#fse-widget .main-change .point .point-icon {
+  width: 17px;
+  height: auto;
+  margin: auto 2px;
+}
+#fse-widget .main-change .point .point-icon img {
+  width: 100%;
+  object-fit: contain;
+}
+#fse-widget .main-change .point .point-values {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-left: 4px;
+}
+#fse-widget .main-change .point .point-values span:nth-child(1) {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1;
+}
+#fse-widget .main-change .point .point-values span:nth-child(2) {
+  font-size: 14px;
+  font-weight: bold;
+}
+#fse-widget .main-change .point .point-values .values-up {
+  color: #268b09;
+}
+#fse-widget .main-change .point .point-values .values-down {
+  color: #fd0000;
+}
+#fse-widget .main-change .point .point-values .values-no-change {
+  color: #484848;
+}
+
+/*# sourceMappingURL=fse-widget.css.map */
